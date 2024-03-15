@@ -1,0 +1,12 @@
+length = input("가로:")
+width  = input("세로:")
+height = input("높이:")
+
+length = float(length)
+width  = float(length)
+heigth = float(length)
+
+volume = length * width * height
+
+print("박스의 부피는", volume, "입니다.")
+
