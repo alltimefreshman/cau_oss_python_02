@@ -1,10 +1,6 @@
-length = 12
-width  = 30
-heigth = 71
-
-length = float("12.5")
-width  = float("30.2")
-heigth = float("71.5")
+length = float(input("가로:"))
+width  = float(input("세로:"))
+heigth = float(input("높이:"))
 
 volume = length * width * heigth
 
